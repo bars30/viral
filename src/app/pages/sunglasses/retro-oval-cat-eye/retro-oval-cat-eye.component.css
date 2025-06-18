@@ -36,6 +36,21 @@ header {
  overflow: hidden;
  border-top-left-radius: 40px;
  border-bottom-left-radius: 40px;
+ position: relative;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+.img-ps {
+ position: absolute;
+ display: flex;
+ justify-content: space-between;
+ width: 90%;
+ bottom: 2.5%;
+}
+.img-ps img {
+ width: 49%;
 }
 h1 {
  margin-bottom: 7px;
@@ -85,6 +100,9 @@ em {
  margin-top: 10px;
  width: 81%;
 }
+b {
+    color: #e45f00;
+}
 @media only screen and (max-width: 1070px){
  .cont {
   display: block;
@@ -118,25 +136,39 @@ img.product {
  margin: 55px 0 25px;
 }
 }
+.main2 {
+ display: none;
+}
 @media only screen and (max-width: 700px){
+ .cont {
+  height: auto;
+ }
  .text-cont {
-  padding: 16.5% 2.5% 5.5% 2.5%;
+  padding: 21.5% 2.5% 5.5% 2.5%;
+ }
+ .main {
+    display: none;
+ }
+ .main2 {
+  display: block;
+  padding: 25px 2.5%;
  }
  .subtitle {
   width: 100%;
-  margin-bottom: 25px;
-  font-size: 18px;
+  font-size: 20px;
  }
  h1 {
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 34px;
  }
  .viral p {
-    width: 100%;
-            margin-bottom: 15px;
-}
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 20px;
+  margin-top: 25px;
+ }
  li {
-    font-size: 16px;
+    font-size: 17px;
 }
  .nav {
   margin-top: 20px;
@@ -148,9 +180,15 @@ img.product {
   display: block;
  }
  a.btn {
-    font-size: 18px;
+  font-size: 18px;
  }
  .btn-vont img {
-    width: 22%;
-}
+  width: 22%;
+ }
+ h3 {
+  font-size: 26px;
+ }
+ ul {
+  margin-top: 15px;
+ }
 }
