@@ -9,6 +9,11 @@ export const routes: Routes = [
   },
   {
     path: 'retro-oval-cat-eye-sunglasses',       // /about
-    component: RetroOvalCatEyeComponent
+    component: RetroOvalCatEyeComponent,
+     data: { 
+      title: 'Retro Y2K Oval Cat Eye Sunglasses – Viral Summer Trend',
+      description: 'Sleek, lightweight, and totally Insta-ready – these cat eye sunnies are the must-have accessory for 2025. Perfect for narrow faces and 100% UV protected.'
+     }
+     
   }
 ];
