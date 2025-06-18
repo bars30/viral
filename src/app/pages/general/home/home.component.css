@@ -1,0 +1,100 @@
+.toolbar {
+ position: absolute;
+ left: 0;
+ top: 0;
+ right: 0;
+}
+img {
+ width: 100%;
+}
+.cont {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ height: 100%;
+}
+.text-cont {
+ padding: 18% 2.5% 2.5% 2.5%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 50%;
+}
+.nav-item {
+ display: flex;
+ justify-content: space-between;
+}
+.nav-item.nav-item-sp {
+ margin: 10px 0;
+}
+header {
+ height: 100vh;
+}
+.img-cont {
+ width: 50%;
+ height: 100%;
+ overflow: hidden;
+ border-top-left-radius: 40px;
+ border-bottom-left-radius: 40px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.subtitle {
+    width: 81%;
+}
+.mobile {
+ display: none;
+}
+.mob {
+ display: none;
+}
+@media only screen and (max-width: 1070px){
+ .cont {
+    display: block;
+ }
+ .text-cont {
+    padding: 14.5% 2.5% 3.5% 2.5%;
+    width: 100%;
+ }
+ .img-cont {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 0px;
+}
+.mobile {
+ display: block;
+}
+.desktop {
+ display: none;
+}
+.nav {
+ display: none;
+}
+.subtitle {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 700px){
+ .text-cont[_ngcontent-ng-c3551304284] {
+        padding: 25.5% 2.5% 7.5% 2.5%;
+ }
+ .subtitle[_ngcontent-ng-c700955300] {
+    width: 100%;
+}
+h1[_ngcontent-ng-c3551304284] {
+    margin-bottom: 15px;
+}
+.nav {
+    margin-top: 20px;
+}
+.mobile {
+ display: none;
+}
+.mob {
+ display: block;
+}
+}
