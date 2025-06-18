@@ -36,6 +36,7 @@ header {
  overflow: hidden;
  border-top-left-radius: 40px;
  border-bottom-left-radius: 40px;
+ display: flex;
 }
 h1 {
     margin-bottom: 20px;
