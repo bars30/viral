@@ -120,14 +120,23 @@ img.product {
 }
 @media only screen and (max-width: 700px){
  .text-cont {
-  padding: 25.5% 2.5% 7.5% 2.5%;
+  padding: 16.5% 2.5% 5.5% 2.5%;
  }
  .subtitle {
   width: 100%;
+  margin-bottom: 25px;
  }
  h1 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  font-size: 30px;
  }
+ .viral p {
+    width: 100%;
+            margin-bottom: 15px;
+}
+ li {
+    font-size: 14px;
+}
  .nav {
   margin-top: 20px;
  }
@@ -137,4 +146,10 @@ img.product {
  .mob {
   display: block;
  }
+ a.btn {
+    font-size: 18px;
+ }
+ .btn-vont img {
+    width: 22%;
+}
 }
