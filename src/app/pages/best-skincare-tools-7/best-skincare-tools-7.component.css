@@ -176,7 +176,10 @@ table {
       }
     } */
 
-
+.table-cont {
+    width: 100%;
+    overflow-x: scroll;
+}
 @media only screen and (max-width: 1125px){
   h1 {
     font-size: 27px;
@@ -197,7 +200,12 @@ table {
             position: revert;
   }
 }
-
+.main-img2 {
+    display: none;
+}
+.mobile {
+    display: none;
+}
 @media only screen and (max-width: 600px){
   .btn-cont {
     width: 100%;
@@ -212,5 +220,20 @@ table {
   .btn {
     width: 100% !important;
     text-align: center;
-}
+  }
+  .main-img1 {
+    display: none;
+  }
+  .main-img2 {
+    display: block;
+  }
+  table {
+    width: 50% !important;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }
