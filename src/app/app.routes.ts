@@ -6,7 +6,7 @@ import { BestSkincareTools7Component } from './pages/best-skincare-tools-7/best-
 export const routes: Routes = [
  {
     path: '',            // հիմնական route (homepage)
-    component: HomeComponent
+    component: BestSkincareTools7Component
   },
   {
     path: 'retro-oval-cat-eye-sunglasses',       
