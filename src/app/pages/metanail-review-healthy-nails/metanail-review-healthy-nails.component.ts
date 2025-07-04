@@ -3,11 +3,11 @@ import { ToolbarComponent } from "../../component/toolbar/toolbar.component";
 import { FooterComponent } from "../../component/footer/footer.component";
 
 @Component({
-  selector: 'app-best-skincare-tools-7',
+  selector: 'app-metanail-review-healthy-nails',
   imports: [ToolbarComponent, FooterComponent],
-  templateUrl: './best-skincare-tools-7.component.html',
-  styleUrl: './best-skincare-tools-7.component.css'
+  templateUrl: './metanail-review-healthy-nails.component.html',
+  styleUrl: './metanail-review-healthy-nails.component.css'
 })
-export class BestSkincareTools7Component {
+export class MetanailReviewHealthyNailsComponent {
 
 }

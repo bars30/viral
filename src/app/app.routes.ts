@@ -2,6 +2,8 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/general/home/home.component';
 import { RetroOvalCatEyeComponent } from './pages/sunglasses/retro-oval-cat-eye/retro-oval-cat-eye.component';
 import { BestSkincareTools7Component } from './pages/best-skincare-tools-7/best-skincare-tools-7.component';
+import { Meta } from '@angular/platform-browser';
+import { MetanailReviewHealthyNailsComponent } from './pages/metanail-review-healthy-nails/metanail-review-healthy-nails.component';
 
 export const routes: Routes = [
  {
@@ -19,5 +21,13 @@ export const routes: Routes = [
   {
     path: '7-best-skincare-tools',      
     component: BestSkincareTools7Component,
+  },
+  {
+    path: 'metanail-review-healthy-nails',      
+    component: MetanailReviewHealthyNailsComponent,
+      data: {
+        title: 'Metanail Complex Review – Naturally Stronger, Healthier Nails in Weeks',
+        description: 'Tired of brittle, dull nails? Discover how Metanail Complex helped me fix weak nails naturally this summer. Real results, natural ingredients, and a powerful formula that works.'
+      }
   }
 ];
