@@ -173,6 +173,19 @@ b {
   .container {
     width: 85%;
   }
+  .det2 {
+    display: none;
+  }
+  .prod-cont .hero-img {
+  width: 58% !important;
+  display: block;
+  }
+   .prod-cont {
+  padding: 15px;
+   } 
+   .disclosure {
+  font-size: 10px !important;
+   }
 }
 @media only screen and (max-width: 610px){
       h1 {
@@ -184,7 +197,7 @@ b {
 
 
 .prod-cont .hero-img {
-  width: 59%;
+  width: 47%;
   display: block;
 }
 .img {
@@ -218,4 +231,6 @@ b {
 .disclosure {
   font-size: 14px;
   margin-top: 8px;
+  margin-bottom: 0;
+  color: #666666;
 }
