@@ -1,0 +1,6 @@
+app-toolbar .toolbar, app-footer footer {
+    margin: 0 !important;
+}
+ app-footer footer {
+    margin: 0 !important;
+}

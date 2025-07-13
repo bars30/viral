@@ -132,7 +132,11 @@ table {
     border-radius: 4px;
     font-size: 18px;
  margin-top: 15px;
+ transition: all 0.25s ease;
    }
+.btn:hover {
+  background-color: #3300db;
+}
 
 ul {
     padding-left: 30px;
@@ -179,4 +183,39 @@ b {
 
 
 
+.prod-cont .hero-img {
+  width: 59%;
+  display: block;
+}
+.img {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.details {
+  width: 40%;
+}
+.details img {
+  width: 100%;
+}
+ .prod-cont {
+  padding: 25px;
+  background-color: white;
+  border-radius: 25px;
+ }
+ .col {
+  background-color: #f8f6fe;
+ }
 
+.container {
+  padding: 25px 0;
+}
+
+ .prod-cont h1 {
+  margin-top: 0;
+ }
+
+.disclosure {
+  font-size: 14px;
+  margin-top: 8px;
+}

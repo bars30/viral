@@ -4,11 +4,12 @@ import { RetroOvalCatEyeComponent } from './pages/sunglasses/retro-oval-cat-eye/
 import { BestSkincareTools7Component } from './pages/best-skincare-tools-7/best-skincare-tools-7.component';
 import { Meta } from '@angular/platform-browser';
 import { MetanailReviewHealthyNailsComponent } from './pages/metanail-review-healthy-nails/metanail-review-healthy-nails.component';
+import { ThisBrownDressisGoingViralComponent } from './pages/this-brown-dressis-going-viral/this-brown-dressis-going-viral.component';
 
 export const routes: Routes = [
  {
     path: '',            // հիմնական route (homepage)
-    component: BestSkincareTools7Component
+    component: MetanailReviewHealthyNailsComponent
   },
   {
     path: 'retro-oval-cat-eye-sunglasses',       
@@ -29,5 +30,9 @@ export const routes: Routes = [
         title: 'Metanail Complex Review – Naturally Stronger, Healthier Nails in Weeks',
         description: 'Tired of brittle, dull nails? Discover how Metanail Complex helped me fix weak nails naturally this summer. Real results, natural ingredients, and a powerful formula that works.'
       }
+  },
+  {
+    path: 'trendy-brown-mini-dress',
+    component: ThisBrownDressisGoingViralComponent
   }
 ];
