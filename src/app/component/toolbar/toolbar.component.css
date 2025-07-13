@@ -12,3 +12,8 @@ font-family: "Revalia";
      /* box-shadow: 0 0 5px 0px #d5d5d5; */
      border-bottom: 3px solid #5E2BFF;
 }
+@media only screen and (max-width: 768px){
+.toolbar {
+ padding: 15px 2.5% 18px;
+}
+}

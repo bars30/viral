@@ -186,6 +186,11 @@ b {
    .disclosure {
   font-size: 10px !important;
    }
+   .btn {
+    width: 100%;
+    padding: 15px 15px;
+    text-align: center;
+   }
 }
 @media only screen and (max-width: 610px){
       h1 {
